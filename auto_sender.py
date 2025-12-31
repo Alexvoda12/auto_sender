@@ -294,7 +294,7 @@ async def main():
                     print(f"ID группы: {group_id}")
                 
             elif choice == "3":
-                group_input = input("Введите ID группы или username:(3669051362) ").strip()
+                group_input = input("Введите ID группы или username:(3669051362) ").strip() or '3669051362'
                 message = input("Введите сообщение('/drink@BestPivo_bot'): ").strip()
                 time_ = input("Введите время в секундах: ").strip() or 3600
                 time_ = int(time_)
